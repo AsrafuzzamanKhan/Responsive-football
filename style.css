@@ -24,6 +24,7 @@ body{
     width: 50%;
     padding: 10%;
     color: white;
+    
 }
 .half-width h1{
     
@@ -72,4 +73,36 @@ a.button span{
 }
 .mid-img img{
     width: 100%;
+}
+footer{
+    text-align: center;
+}
+.footer-img img{
+    width: 483px;
+    height: 110px;
+}
+footer .fab{
+    
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    color: black;
+    background-color: gray;
+    margin: 20px 14px;
+    
+    
+}
+@media only screen and (max-width: 668px )   {
+    
+    .container, .players ,.mid-bar{
+        grid-template-columns: repeat(1,1fr);
+    }
+}
+@media only screen and (min-width: 689px) and (max-width: 992px) {
+    .container{
+        width: 100%;
+    }
+    .players ,.mid-bar{
+        grid-template-columns: repeat(2,1fr);
+    }
 }
